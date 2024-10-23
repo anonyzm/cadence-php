@@ -1,0 +1,24 @@
+{
+    "name": "anonyzm/cadence-php",
+    "description": "Cadence HTTP API driver for php",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Anonyzm\\CadencePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonid"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/console": "7.2.x-dev",
+        "symfony/serializer": "7.2.x-dev",
+        "ramsey/uuid": "5.x-dev",
+        "shrikeh/teapot": "3.0.0",
+        "symfony/property-access": "7.2.x-dev"
+    }
+}
